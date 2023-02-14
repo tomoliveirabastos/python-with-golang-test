@@ -1,6 +1,3 @@
-# python-with-golang-test
-
-```bash
 import ctypes
 import json
 
@@ -37,4 +34,3 @@ out = obj(
 pointer = ctypes.string_at(out)
 outVal = pointer.decode("utf-8")
 print("PRINT GET PERSON OBJ WITH POINTER ", outVal)
-```
